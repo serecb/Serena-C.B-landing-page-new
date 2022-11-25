@@ -1,0 +1,179 @@
+/*body and background image*/
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+.col-sm-4 {
+  text-align: center;
+}
+.background-img {
+  min-width: 100%;
+  width: 100%;
+  border-radius: 0;
+}
+#script-background {
+  display: none;
+}
+/*headings*/
+h1 {
+  position: absolute;
+  padding: 20px 20px;
+  background-color: #ecc5be;
+  width: 100%;
+  text-align: center;
+  color: #495f76;
+  font-style: italic;
+  border: 5px solid #495f76;
+}
+
+h3 {
+  position: absolute;
+  margin-top: 330px;
+  color: #495f76;
+  font-style: italic;
+}
+
+/*navbar , links and dropdown*/
+
+#nav-bar {
+  position: absolute;
+  margin-top: 146px;
+  width: 90%;
+  border-radius: 30px;
+  border: 3px solid #495f76;
+}
+
+#navbarNavDropdown {
+  display: flex;
+  justify-content: center;
+}
+
+#navbarNavDropdown a {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 40px;
+  color: #495f76;
+}
+
+#carouselExampleFade {
+  position: absolute;
+  width: 30%;
+  margin-top: 400px;
+  display: none;
+}
+img {
+  border-radius: 20px;
+  border: 5px solid #495f76;
+}
+
+.navbar-brand {
+  margin-left: 120px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.dropdown-menu {
+  background-color: #ecc5be;
+  font-style: italic;
+}
+
+/*image carousel*/
+
+.carousel-control-prev,
+.carousel-control-next {
+  margin-top: 150px;
+}
+
+/*sneak peek button*/
+button {
+  position: absolute;
+  margin-top: 400px;
+  background-color: #ecc5be;
+  color: #495f76;
+  border-radius: 30px;
+  font-style: italic;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+
+.dropdown-item {
+  text-align: center;
+}
+
+/*logos*/
+#github-emoji {
+  width: 22px;
+}
+#preply-logo {
+  width: 55px;
+  border: none;
+}
+#instagram-logo {
+  width: 40px;
+  border: none;
+}
+#tiktok-logo {
+  width: 40px;
+  border: none;
+}
+
+#back-to-main-screen-button {
+  background-color: #495f76;
+  color: #ecc5be;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+  padding: 5px 10px;
+  margin-top: 650px;
+  display: none;
+}
+video {
+  width: 70%;
+  border-radius: 30px;
+  border: 5px solid #495f76;
+}
+.col-sm-12 {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #495f76;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: 500;
+}
+.english-lesson {
+  width: 90%;
+  border-radius: 20px;
+  border: 5px solid #495f76;
+}
+.contact1 {
+  position: absolute;
+  margin-top: 300px;
+  font-size: 70px;
+  background-color: #495f76;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  color: #ecc5be;
+}
+.contact2 {
+  position: absolute;
+  margin-top: 500px;
+  font-size: 70px;
+  background-color: #495f76;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  color: #ecc5be;
+}
