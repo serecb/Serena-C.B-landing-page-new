@@ -3,11 +3,11 @@
 * {
   box-sizing: border-box;
 }
-.background-img {
+
+.background-img img {
   position: relative;
   min-width: 100%;
   width: 200%;
-  border-radius: 0;
 }
 #script-background {
   display: none;
@@ -64,7 +64,7 @@ h3 {
 
 #nav-bar {
   margin-top: 146px;
-  width: 90%;
+  width: 70%;
   border-radius: 30px;
   border: 3px solid #495f76;
 }
@@ -104,7 +104,6 @@ img {
   border: 5px solid #495f76;
   width: 100%;
 }
-
 .carousel-control-prev,
 .carousel-control-next {
   margin-top: 150px;
@@ -157,8 +156,8 @@ video {
 }
 /*about me grids*/
 .col-sm-12 {
+  margin-top: 5px;
   text-align: center;
-  padding-bottom: 20px;
   color: #495f76;
   font-style: italic;
   font-size: 50px;
@@ -166,6 +165,7 @@ video {
 }
 .col-sm-4 {
   text-align: center;
+  margin-top: 5px;
 }
 /*about me images*/
 .english-lesson {
@@ -180,15 +180,16 @@ video {
   background-color: #495f76;
   text-align: center;
   text-decoration: none;
-  border-radius: 30px;
+  border-radius: 20px;
   color: #ecc5be;
 }
+
 .contact2 {
   margin-top: 500px;
   font-size: 70px;
   background-color: #495f76;
   text-align: center;
   text-decoration: none;
-  border-radius: 30px;
+  border-radius: 20px;
   color: #ecc5be;
 }
