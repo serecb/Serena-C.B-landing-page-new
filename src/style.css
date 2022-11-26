@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .background-img {
-  max-width: 100%;
+  min-width: 100%;
   width: 100%;
   border-radius: 0;
   background-image: url("images/milky-way.jpg");
