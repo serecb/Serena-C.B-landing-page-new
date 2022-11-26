@@ -1,64 +1,207 @@
 body {
-  background-color: silver;
+  background-image: url("https://wallpaperaccess.com/full/3947539.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
+/*headers*/
 h1,
 h3 {
   text-align: center;
   color: #495f76;
   font-weight: 700;
+  font-family: "Lobster", cursive;
   font-style: italic;
   padding: 20px 20px;
 }
 h1 {
-  background-color: #ecc5be;
+  background-image: url("https://wallpaperaccess.com/full/3947539.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   border: 5px solid #495f76;
+  font-size: 60px;
 }
 h3 {
   margin-top: 50px;
-  font-size: 40px;
+  font-size: 50px;
 }
-/*nav-bar container*/
+/*nav-bar and dropdown*/
 .navbar-wrapper {
   display: flex;
   justify-content: center;
+  border: 5px solid #495f76;
+  margin-top: -10px;
+  background-color: #ecc5be;
 }
-#navbarNavDropdown {
-  border-radius: 50px;
+a.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  color: #495f76;
+}
+li.nav-item a {
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  color: #495f76;
+}
+.dropdown-menu {
+  background-color: #ecc5be;
+}
+/*navbar dropdown social media logos*/
+.github-logo {
+  width: 30px;
+}
+#preply-logo {
+  width: 60px;
+}
+#instagram-logo {
+  width: 40px;
+}
+#tiktok-logo {
+  width: 30px;
 }
 /*buttons*/
 .button-wrapper {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 button {
-  margin-top: 20px;
-  background-color: #ecc5be;
-  color: #495f76;
-  font-size: 20px;
-  border-radius: 30px;
-  font-style: italic;
+  background-color: #495f76;
+  color: #ecc5be;
   font-weight: 700;
-  padding: 5px 10px;
+  border: 5px solid #495f76;
+  border-radius: 30px;
 }
 
-/*social media logos*/
-.logo {
-  width: 30px;
+/*hidden carousel and carousel images*/
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
-#preply-logo {
-  width: 50px;
-}
-#instagram-logo {
-  width: 10px;
-}
-#tiktok-logo {
-  width: 10px;
-}
-
-#carouselExampleFade {
-  width: 30%;
-  margin-top: 400px;
+#carouselExampleControls {
   display: none;
+}
+img {
+  border-radius: 40px;
+}
+
+/*about me page container and videos*/
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+video {
+  width: 70%;
+  margin-left: 70px;
+  border: 5px solid #ecc5be;
+  border-radius: 30px;
+}
+
+/*about me page images*/
+.english-lesson-container {
+  display: flex;
+  justify-content: center;
+}
+.english-lesson {
+  margin-left: 70px;
+  border: 5px solid #ecc5be;
+  border-radius: 30px;
+}
+#english-lesson1 {
+  width: 75%;
+}
+#english-lesson2 {
+  margin-top: 50px;
+  width: 80%;
+}
+#english-lesson3 {
+  width: 75%;
+}
+/*contact page*/
+.contacts {
+  text-decoration: none;
+  font-size: 60px;
+  color: #495f76;
+}
+/*project gallery*/
+.project-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+#project1,
+#project2,
+#project3,
+#project4 {
+  width: 70%;
+  margin-bottom: 20px;
+  margin-left: 150px;
+  border: 5px solid #ecc5be;
+  border-radius: 30px;
+}
+p {
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  color: #495f76;
+  background-color: #ecc5be;
+  border-radius: 30px;
+  padding: 20px;
+  margin-right: 50px;
+}
+/*media queries*/
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  a.navbar-brand {
+    font-size: 15px;
+    margin-left: 50px;
+  }
+  li.nav-item a {
+    font-family: "Lobster", cursive;
+    font-size: 10px;
+    color: #495f76;
+  }
+  .navbar-toggler {
+    width: 20%;
+
+    background-color: #ecc5be;
+    border: 3px solid #495f76;
+  }
+  .navbar-toggler-icon {
+    color: #495f76;
+    font-size: 8px;
+    margin-left: -10px;
+  }
+  .github-logo,
+  .coder-emoji {
+    display: none;
+  }
+}
+@media (max-width: 912px) {
+  .github-logo,
+  .coder-emoji {
+    display: none;
+  }
+  img {
+    width: 100%;
+  }
+  .navbar-toggler {
+    width: 20%;
+
+    background-color: #ecc5be;
+    border: 3px solid #495f76;
+  }
+  .navbar-toggler-icon {
+    color: #495f76;
+    font-size: 8px;
+    margin-left: -10px;
+  }
 }
