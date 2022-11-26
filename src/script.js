@@ -40,6 +40,9 @@ function showMainScreen() {
     projectGallery.style.display = "none";
     backToMainScreenButton.style.display = "none";
     document.body.style.backgroundImage = "url(images/milky-way.jpg)";
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.width = "100%";
     h3Element.style.display = "block";
     carouselButton.style.display = "block";
     homepageHeading.style.background = "#ecc5be";

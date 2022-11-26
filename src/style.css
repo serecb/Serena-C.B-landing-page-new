@@ -7,6 +7,8 @@
   min-width: 100%;
   width: 100%;
   border-radius: 0;
+  background-image: url("images/milky-way.jpg");
+  background-repeat: no-repeat;
 }
 #script-background {
   display: none;
