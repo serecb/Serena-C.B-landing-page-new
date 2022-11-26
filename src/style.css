@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 .background-img {
+  position: relative;
   min-width: 100%;
   width: 200%;
   border-radius: 0;
