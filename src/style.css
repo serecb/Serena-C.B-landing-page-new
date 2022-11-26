@@ -65,23 +65,21 @@ h3 {
 #nav-bar {
   margin-top: 146px;
   width: 100%;
-
   border: 3px solid #495f76;
 }
 
 #navbarNavDropdown {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 #navbarNavDropdown a {
   font-size: 20px;
   font-weight: 700;
-  margin-right: 40px;
   color: #495f76;
 }
 .navbar-brand {
-  margin-left: 120px;
+  margin-left: 420px;
   font-size: 20px;
   font-weight: 700;
 }
