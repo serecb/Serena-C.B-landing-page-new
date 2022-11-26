@@ -70,7 +70,7 @@ h3 {
 
 #navbarNavDropdown {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 #navbarNavDropdown a {
