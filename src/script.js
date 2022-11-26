@@ -13,10 +13,11 @@ function showCarousel() {
     projectGallery.style.marginTop = "20px";
     projectGallery.style.marginBottom = "10px";
     projectGallery.style.opacity = "0.8";
-    document.body.style.background = "#495f76";
+
     homepageHeading.style.backgroundImage = "url(images/script-background.jpg)";
     homepageHeading.style.backgroundRepeat = "no-repeat";
     homepageHeading.style.backgroundSize = "cover";
+
     homepageHeading.style.color = "#495f76";
     h3Element.style.display = "none";
     carouselButton.style.display = "none";
