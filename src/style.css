@@ -1,207 +1,64 @@
-/*body and background images*/
-
-* {
-  box-sizing: border-box;
+body {
+  background-color: silver;
 }
 
-.background-img img {
-  position: relative;
-  min-width: 100%;
-  width: 200%;
-}
-#script-background {
-  display: none;
-}
-
-/*elements with absolute position*/
 h1,
-h3,
-button,
-.container,
-#nav-bar,
-#carouselExampleFade,
-.contact1,
-.contact2 {
-  position: absolute;
-}
-
-/*wrapper & container*/
-
-.wrapper {
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-.container {
-  display: flex;
-  justify-content: center;
-  margin-top: 300px;
-}
-
-/*headings*/
-h1 {
+h3 {
   text-align: center;
   color: #495f76;
-  font-style: italic;
   font-weight: 700;
+  font-style: italic;
   padding: 20px 20px;
+}
+h1 {
   background-color: #ecc5be;
   width: 100%;
   border: 5px solid #495f76;
 }
-
 h3 {
-  margin-top: 330px;
-  text-align: center;
-  color: #495f76;
-  font-style: italic;
-  font-weight: 700;
-  padding: 20px 20px;
+  margin-top: 50px;
   font-size: 40px;
 }
-
-/*navbar , links and dropdown*/
-
-#nav-bar {
-  margin-top: 146px;
-  width: 100%;
-  border: 3px solid #495f76;
-}
-
-#navbarNavDropdown {
+/*nav-bar container*/
+.navbar-wrapper {
   display: flex;
-  justify-content: left;
+  justify-content: center;
+}
+#navbarNavDropdown {
+  border-radius: 50px;
+}
+/*buttons*/
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+button {
+  margin-top: 20px;
+  background-color: #ecc5be;
+  color: #495f76;
+  font-size: 20px;
+  border-radius: 30px;
+  font-style: italic;
+  font-weight: 700;
+  padding: 5px 10px;
 }
 
-#navbarNavDropdown a {
-  font-size: 20px;
-  font-weight: 700;
-  color: #495f76;
+/*social media logos*/
+.logo {
+  width: 30px;
 }
-.navbar-brand {
-  margin-left: 600px;
-  font-size: 20px;
-  font-weight: 700;
+#preply-logo {
+  width: 50px;
 }
-.dropdown-menu {
-  background-color: #ecc5be;
-  font-style: italic;
+#instagram-logo {
+  width: 10px;
 }
-.dropdown-item {
-  text-align: center;
+#tiktok-logo {
+  width: 10px;
 }
-/*hidden carousel and carousel images*/
 
 #carouselExampleFade {
   width: 30%;
   margin-top: 400px;
   display: none;
 }
-img {
-  border-radius: 20px;
-  border: 5px solid #495f76;
-  width: 100%;
-}
-.carousel-control-prev,
-.carousel-control-next {
-  margin-top: 150px;
-}
-
-/*sneak peek button and hidden back to homepage button*/
-button {
-  margin-top: 430px;
-  background-color: #ecc5be;
-  color: #495f76;
-  font-size: 20px;
-  border-radius: 30px;
-  font-style: italic;
-  font-weight: 700;
-  padding: 5px 10px;
-}
-#back-to-main-screen-button {
-  background-color: #495f76;
-  color: #ecc5be;
-  font-size: 20px;
-  font-style: italic;
-  font-weight: 500;
-  padding: 5px 10px;
-  margin-top: 715px;
-  display: none;
-}
-
-/*social media logos*/
-#github-emoji {
-  width: 22px;
-}
-#preply-logo {
-  width: 55px;
-  border: none;
-}
-#instagram-logo {
-  width: 40px;
-  border: none;
-}
-#tiktok-logo {
-  width: 40px;
-  border: none;
-}
-
-/*about mevideos*/
-video {
-  width: 90%;
-  border-radius: 30px;
-  border: 5px solid #495f76;
-}
-/*about me grids*/
-.col-sm-12 {
-  margin-top: 5px;
-  text-align: center;
-  color: #495f76;
-  font-style: italic;
-  font-size: 50px;
-  font-weight: 500;
-}
-.col-sm-4 {
-  text-align: center;
-  margin-top: 5px;
-}
-/*about me images*/
-.english-lesson {
-  width: 90%;
-  border-radius: 20px;
-  border: 5px solid #495f76;
-}
-/*contact page*/
-.contact1 {
-  margin-top: 300px;
-  font-size: 70px;
-  background-color: #495f76;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 20px;
-  color: #ecc5be;
-}
-
-.contact2 {
-  margin-top: 500px;
-  font-size: 70px;
-  background-color: #495f76;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 20px;
-  color: #ecc5be;
-}
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
