@@ -264,4 +264,7 @@ p {
   .form-container {
     width: 50%;
   }
+  #english-teacher {
+    width: 80%;
+  }
 }
