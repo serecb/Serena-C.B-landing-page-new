@@ -116,15 +116,52 @@ video {
 }
 
 /*contact page*/
-.container {
-  display: flex;
-  justify-content: center;
-}
 .contacts {
   text-decoration: none;
   font-size: 60px;
   color: #495f76;
 }
+.form-container {
+  border: 5px solid #495f76;
+  border-radius: 30px;
+  width: 70%;
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+label {
+  font-size: 20px;
+  text-align: center;
+  color: #495f76;
+  font-weight: 700;
+  font-family: "Lobster", cursive;
+  font-style: italic;
+  padding: 20px 20px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px 10px;
+  border: 3px solid #495f76;
+  border-radius: 30px;
+  background-color: #ecc5be;
+}
+input {
+  height: 50px;
+}
+textarea {
+  height: 100%;
+}
+
+#send-button {
+  width: 40%;
+  text-align: center;
+  color: #495f76;
+  font-weight: 700;
+  font-family: "Lobster", cursive;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
 /*project gallery*/
 .project-container {
   display: flex;
@@ -150,6 +187,7 @@ p {
   padding: 20px;
   margin-right: 50px;
 }
+
 /*media queries*/
 
 @media (max-width: 576px) {

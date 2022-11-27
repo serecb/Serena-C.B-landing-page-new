@@ -159,5 +159,58 @@
         </div>
       </div>
     </div>
+    <div class="form-container">
+    <h3>Or drop me a message here</h3>
+    <div class="container">
+    <form
+      id="fs-frm"
+      name="simple-contact-form"
+      accept-charset="utf-8"
+      action="https://formspree.io/f/xkneaqed"
+      method="post"
+    >
+      <div class="fullname">
+      <fieldset id="fs-frm-inputs"><div>
+
+      <div>
+        <label for="full-name">Full Name</label>
+        <input
+          type="text"
+          name="name"
+          id="full-name"
+          placeholder="First and Last"
+          required=""
+        /></div>
+        <div class="email-address">
+        <label for="email-address">Email Address</label>
+        <input
+          type="email"
+          name="_replyto"
+          id="email-address"
+          placeholder="jane.doe@gmail.com"
+          required=""
+        /></div>
+        <div class="label">
+        <label for="message">Message</label></div>
+        <div>
+        <textarea
+          rows="5"
+          name="message"
+          id="message"
+          placeholder="Type here..."
+          required=""
+        ></textarea></div>
+        <div class="send-button">
+        <input
+          type="hidden"
+          name="_subject"
+          id="email-subject"
+          value="Contact Form Submission"
+        />
+      </fieldset>
+      <input type="submit" value="Send" id="send-button" />
+    </form>
+  </div>
+  </div></div>
   </body>
 </html>
