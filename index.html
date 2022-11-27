@@ -16,20 +16,25 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
   </head>
+  <body>
     <h1 id="homepage-heading">
       Serena Cimmino-Bennewith <br />
       Front-end developer
     </h1>
     <div class="navbar-wrapper">
-      <nav class="navbar navbar-expand-lg ">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="about.html">About me</a>
-          <button onclick="moveItem()"
+          <button
+            onclick="moveItem()"
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -110,7 +115,8 @@
                       href="https://www.tiktok.com/@serenana89?lang=en"
                       target="_blank"
                       rel="noopener"
-                      >Check out my TikTok <img
+                      >Check out my TikTok
+                      <img
                         src="images/tiktok.jpg"
                         alt="tiktok-logo"
                         id="tiktok-logo"
@@ -124,40 +130,68 @@
       </nav>
     </div>
     <h3>For a sneak peek of my projects</h3>
-    <div class="button-wrapper" >
-      
+    <div class="button-wrapper">
       <button id="main-button" onclick="showCarousel()">Click here</button>
     </div>
     <div class="carousel-wrapper">
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/flavors-from-my-hometown-project.jpg" class="d-block w-100" alt="flavors-from-my-hometown-project">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/flavors-from-my-hometown-project.jpg"
+              class="d-block w-100"
+              alt="flavors-from-my-hometown-project"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/weather-app-project.jpg"
+              class="d-block w-100"
+              alt="weather-app-project"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/my-coding-routine-project.jpg"
+              class="d-block w-100"
+              alt="my-coding-routine-project"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/napoli-landing-page.jpg"
+              class="d-block w-100"
+              alt="napoli-landing-page"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="images/weather-app-project.jpg" class="d-block w-100" alt="weather-app-project">
-    </div>
-    <div class="carousel-item">
-      <img src="images/my-coding-routine-project.jpg" class="d-block w-100" alt="my-coding-routine-project">
-    </div>
-    <div class="carousel-item">
-      <img src="images/napoli-landing-page.jpg" class="d-block w-100" alt="napoli-landing-page">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
-<div class="button-wrapper">
+    <div class="button-wrapper">
       <button id="homepage-button" onclick="showMainScreen()">Homepage</button>
     </div>
-<script src="src/script.js"></script>
+    <script src="src/script.js"></script>
   </body>
 </html>
-   
