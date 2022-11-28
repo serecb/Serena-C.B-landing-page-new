@@ -280,8 +280,7 @@ p {
   #project2,
   #project3,
   #project4 {
-    width: 70%;
-    height: 50%;
+    width: 100%;
   }
   p {
     width: 60%;
