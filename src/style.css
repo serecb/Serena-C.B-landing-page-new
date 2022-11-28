@@ -185,6 +185,7 @@ p {
   font-family: "Lobster", cursive;
   font-size: 15px;
   color: #495f76;
+  border: 5px solid #495f76;
   background-color: #ecc5be;
   border-radius: 30px;
   padding: 20px;
