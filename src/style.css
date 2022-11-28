@@ -213,7 +213,7 @@ p {
     color: #495f76;
   }
   .navbar-toggler {
-    width: 30%;
+    width: 20%;
     background-color: #ecc5be;
     border: 3px solid #495f76;
   }
@@ -246,11 +246,12 @@ p {
     font-size: 10px;
   }
 }
-@media (min-width: 820px) {
+@media (min-width: 768px) {
   .github-logo,
   .coder-emoji {
     display: none;
   }
+
   img {
     width: 100%;
   }
@@ -272,7 +273,7 @@ p {
     width: 50%;
   }
   #english-teacher {
-    width: 80%;
+    width: 60%;
   }
   #project1,
   #project2,
