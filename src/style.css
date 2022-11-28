@@ -277,10 +277,20 @@ p {
     width: 60%;
   }
   #project1,
-  #project2,
   #project3,
   #project4 {
     width: 90%;
+    height: 400px;
+    margin-left: 20px;
+  }
+  #project2 {
+    width: 70%;
+    height: 400px;
+    margin-left: 20px;
+  }
+  #project3,
+  #project4 {
+    width: 60%;
     height: 400px;
     margin-left: 20px;
   }
