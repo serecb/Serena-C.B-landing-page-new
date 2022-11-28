@@ -276,9 +276,7 @@ p {
   #english-teacher {
     width: 60%;
   }
-  #project1,
-  #project3,
-  #project4 {
+  #project1 {
     width: 90%;
     height: 400px;
     margin-left: 20px;
