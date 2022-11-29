@@ -236,8 +236,11 @@ p {
     width: 70%;
   }
   label {
-    font-size: 10px;
+    font-size: 15px;
     padding: 10px 10px;
+  }
+  input {
+    width: 80%;
   }
 
   p {
