@@ -165,7 +165,8 @@ textarea {
 }
 
 /*project gallery*/
-#project1 {
+#project1,
+#project2 {
   background-color: #ecc5be;
   opacity: 0.8;
   border: 5px solid #495f76;
