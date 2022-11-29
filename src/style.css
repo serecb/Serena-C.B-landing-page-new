@@ -168,11 +168,12 @@ textarea {
   font-family: "Lobster", cursive;
   margin-bottom: 20px;
 }
-
+footer {
+}
 .contact-container {
   display: flex;
   justify-content: center;
-  width: 30%;
+  width: 90%;
 }
 
 /*project gallery*/
