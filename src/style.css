@@ -168,14 +168,15 @@ textarea {
 .project-container {
   display: grid;
   justify-content: center;
-  width: 80%;
+  margin: 20px 20px;
+  width: 100%;
 }
 img#project1,
 img#project2,
 img#project3,
 img#project4 {
   border-radius: 50px;
-  margin: 20px 20px;
+  margin-left: 30px;
 }
 
 /*media queries*/
