@@ -255,6 +255,7 @@ p {
     border: 5px solid #495f76;
   }
   p {
+    margin-right: 30px;
     margin-bottom: 10px;
     width: 90%;
     font-size: 15px;
