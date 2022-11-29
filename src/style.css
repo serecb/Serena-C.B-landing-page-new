@@ -173,7 +173,8 @@ img#project1,
 img#project2,
 img#project3,
 img#project4 {
-  border-radius: 100px;
+  border-radius: 50px;
+  margin: 20px 20px;
 }
 
 /*media queries*/
