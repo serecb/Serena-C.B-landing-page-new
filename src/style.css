@@ -239,11 +239,11 @@ p {
     font-size: 15px;
     padding: 10px 10px;
   }
-  input,
-  textarea {
+  input {
     width: 80%;
     height: 35px;
   }
+
   input::placeholder {
     font-size: 15px;
   }
