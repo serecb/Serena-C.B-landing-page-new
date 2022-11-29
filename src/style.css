@@ -237,7 +237,7 @@ p {
   .form-container {
     margin-left: 70px;
   }
-  /*.project-container {
+  .project-container {
     display: grid;
   }
   img#project1,
@@ -250,7 +250,7 @@ p {
     height: 300px;
     border: 5px solid #495f76;
   }
-  p {
+  /*p {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
