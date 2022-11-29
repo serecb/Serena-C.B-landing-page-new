@@ -173,8 +173,12 @@ footer {
   background-color: #ecc5be;
 }
 
-.contact-container {
+.contacts {
   width: 90%;
+  color: #495f76;
+  font-weight: 700;
+  font-family: "Lobster", cursive;
+  text-decoration: none;
 }
 
 /*project gallery*/
