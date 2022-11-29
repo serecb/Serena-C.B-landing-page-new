@@ -235,19 +235,6 @@ p {
   .form-container {
     width: 70%;
   }
-  label {
-    font-size: 15px;
-    padding: 10px 10px;
-  }
-  input {
-    width: 80%;
-    height: 35px;
-  }
-
-  input::placeholder {
-    font-size: 15px;
-  }
-
   p {
     font-size: 15px;
   }
