@@ -173,6 +173,8 @@ textarea {
 p {
   margin-top: 150px;
   font-family: "Lobster", cursive;
+  color: #495f76;
+  font-size: 20px;
 }
 
 /*media queries*/
