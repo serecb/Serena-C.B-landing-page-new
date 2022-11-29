@@ -129,11 +129,7 @@ video {
 }
 
 /*contact page*/
-.contacts {
-  text-decoration: none;
-  font-size: 50px;
-  color: #495f76;
-}
+
 .form-container {
   width: 50%;
   border: 5px solid #495f76;
@@ -170,8 +166,12 @@ textarea {
   color: #495f76;
   font-weight: 700;
   font-family: "Lobster", cursive;
-
   margin-bottom: 20px;
+}
+.contacts {
+  text-decoration: none;
+  font-size: 50px;
+  color: #495f76;
 }
 
 /*project gallery*/
