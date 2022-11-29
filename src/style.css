@@ -164,6 +164,7 @@ textarea {
 }
 footer {
   background-color: #ecc5be;
+  border-top: 3px solid #495f76;
 }
 
 .contacts {
