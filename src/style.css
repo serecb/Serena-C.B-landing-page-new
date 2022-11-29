@@ -233,7 +233,11 @@ p {
     font-size: 25px;
   }
   .form-container {
-    width: 50%;
+    width: 25%;
+  }
+  label {
+    font-size: 10px;
+    padding: 5px 5px;
   }
   p {
     font-size: 15px;
