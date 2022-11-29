@@ -175,6 +175,9 @@ img#project3,
 img#project4 {
   border-radius: 100px;
 }
+img#project2 {
+  width: 30%;
+}
 
 /*media queries*/
 
