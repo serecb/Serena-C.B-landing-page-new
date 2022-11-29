@@ -170,12 +170,10 @@ textarea {
 #project3,
 #project4 {
   opacity: 0.8;
-  border: 5px solid #495f76;
-  border-radius: 40px;
 }
 p {
   background-color: #ecc5be;
-  margin-top: 150px;
+
   font-family: "Lobster", cursive;
   color: #495f76;
   font-size: 20px;
