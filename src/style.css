@@ -165,7 +165,10 @@ textarea {
 }
 
 /*project gallery*/
-
+#project1 {
+  background-color: #ecc5be;
+  border: 5px solid #495f76;
+}
 /*media queries*/
 
 @media (max-width: 650px) {
