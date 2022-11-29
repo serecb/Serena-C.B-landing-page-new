@@ -30,7 +30,6 @@ h3 {
   font-size: 50px;
 }
 
-
 /*nav-bar and dropdown*/
 .navbar-wrapper {
   display: flex;
@@ -174,7 +173,7 @@ footer {
   font-weight: 700;
   font-family: "Lobster", cursive;
   text-decoration: none;
-  font-size
+  font-size: 25px;
 }
 
 /*project gallery*/
