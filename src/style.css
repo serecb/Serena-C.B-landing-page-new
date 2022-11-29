@@ -165,10 +165,7 @@ textarea {
 }
 
 /*project gallery*/
-.project-container {
-  margin-left: 20px;
-  margin-top: 20px;
-}
+
 /*media queries*/
 
 @media (max-width: 650px) {
