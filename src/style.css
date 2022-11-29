@@ -170,6 +170,10 @@ textarea {
   border: 5px solid #495f76;
   border-radius: 40px;
 }
+p {
+  margin-top: 100px;
+}
+
 /*media queries*/
 
 @media (max-width: 650px) {
