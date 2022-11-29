@@ -165,32 +165,6 @@ textarea {
 }
 
 /*project gallery*/
-.project-container {
-  display: grid;
-  justify-content: space-evenly;
-  margin: 20px 20px;
-  width: 90%;
-}
-img#project1,
-img#project2,
-img#project3,
-img#project4 {
-  border-radius: 50px;
-  margin-left: 30px;
-  border: 5px solid #495f76;
-}
-p {
-  width: 50%;
-  font-size: 23px;
-  font-family: "Lobster", cursive;
-  color: #495f76;
-  margin-left: 250px;
-  margin-top: 15px;
-  border: 5px solid #495f76;
-  border-radius: 30px;
-  padding: 10px 10px;
-  background-color: #ecc5be;
-}
 
 /*media queries*/
 
@@ -242,24 +216,6 @@ p {
   .form-container {
     margin-left: 70px;
   }
-  .project-container {
-    display: grid;
-    align-items: center;
-  }
-  img#project1,
-  img#project2,
-  img#project3,
-  img#project4 {
-    width: 50%;
-    height: 200px;
-    border: 5px solid #495f76;
-  }
-  p {
-    margin-bottom: 10px;
-    width: 50%;
-    font-size: 10px;
-    padding: 10px 10px;
-  }
 }
 
 @media (min-width: 768px) {
@@ -291,24 +247,4 @@ p {
   #english-teacher {
     width: 60%;
   }
-  /*.project-container {
-    display: grid;
-  }
-  img#project1,
-  img#project2,
-  img#project3,
-  img#project4 {
-    margin: auto;
-    width: 85%;
-    height: 300px;
-    border: 5px solid #495f76;
-  }
-  p {
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 90%;
-    font-size: 15px;
-    padding: 20px 20px;
-  }*/
 }
