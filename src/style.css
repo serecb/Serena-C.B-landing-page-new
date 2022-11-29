@@ -282,7 +282,7 @@ img#project2 {
   #english-teacher {
     width: 60%;
   }
-  .project-container {
+  /*.project-container {
     display: grid;
   }
   img#project1,
@@ -301,5 +301,5 @@ img#project2 {
     width: 90%;
     font-size: 15px;
     padding: 20px 20px;
-  }
+  }*/
 }
