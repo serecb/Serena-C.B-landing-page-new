@@ -248,13 +248,13 @@ p {
   }
   .project-container {
     display: grid;
-    align-items: center;
   }
   img#project1,
   img#project2,
   img#project3,
   img#project4 {
     margin: auto;
+    margin-left: 50px;
     width: 85%;
     height: 300px;
     border: 5px solid #495f76;
