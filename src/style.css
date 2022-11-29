@@ -248,6 +248,7 @@ p {
   }
   .project-container {
     display: grid;
+    align-items: center;
   }
   img#project1,
   img#project2,
