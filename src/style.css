@@ -165,6 +165,7 @@ textarea {
 footer {
   width: 60%;
   background-color: #ecc5be;
+  border-radius: 30px;
 }
 
 .contacts {
