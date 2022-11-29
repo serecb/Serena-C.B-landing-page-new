@@ -249,14 +249,12 @@ p {
     height: 300px;
     border: 5px solid #495f76;
   }
-  /*p {
-    margin: auto;
-    margin-top: 10px;
+  p {
     margin-bottom: 10px;
     width: 90%;
     font-size: 15px;
     padding: 20px 20px;
-  }*/
+  }
 }
 
 @media (min-width: 768px) {
