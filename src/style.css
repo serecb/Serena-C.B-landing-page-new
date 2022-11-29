@@ -1,9 +1,11 @@
+/*background theme*/
 body {
   background-image: url("https://wallpaperaccess.com/full/3947539.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 /*headers*/
 h1,
 h3 {
@@ -27,6 +29,7 @@ h3 {
   margin-top: 50px;
   font-size: 50px;
 }
+
 /*nav-bar and dropdown*/
 .navbar-wrapper {
   display: flex;
@@ -48,6 +51,7 @@ li.nav-item a {
 .dropdown-menu {
   background-color: #ecc5be;
 }
+
 /*navbar dropdown social media logos*/
 .github-logo {
   width: 30px;
@@ -61,6 +65,7 @@ li.nav-item a {
 #tiktok-logo {
   width: 30px;
 }
+
 /*buttons*/
 .button-wrapper {
   display: flex;
