@@ -177,6 +177,7 @@ img#project4 {
 }
 img#project2 {
   width: 90%;
+  border: 10px solid black;
 }
 
 /*media queries*/
