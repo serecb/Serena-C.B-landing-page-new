@@ -167,6 +167,7 @@ textarea {
 /*project gallery*/
 #project1 {
   background-color: #ecc5be;
+  opacity: 0.8;
   border: 5px solid #495f76;
   border-radius: 40px;
 }
