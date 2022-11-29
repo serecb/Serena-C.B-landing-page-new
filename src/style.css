@@ -241,6 +241,7 @@ p {
   }
   input {
     width: 80%;
+    height: 30px;
   }
   input::placeholder {
     font-size: 15px;
