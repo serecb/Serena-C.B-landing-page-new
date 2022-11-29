@@ -231,6 +231,9 @@ p {
   .form-container {
     margin-left: 70px;
   }
+  p {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 768px) {
