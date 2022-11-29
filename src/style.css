@@ -168,15 +168,11 @@ textarea {
   font-family: "Lobster", cursive;
   margin-bottom: 20px;
 }
-footer {
-  width: 30%;
-  background-color: #ecc5be;
-  border: 3px solid #495f76;
-  border-radius: 60px;
-}
+
 .contact-container {
   display: flex;
   justify-content: center;
+  width: 30%;
 }
 
 /*project gallery*/
