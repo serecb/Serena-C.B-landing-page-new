@@ -237,7 +237,15 @@ p {
   }
   label {
     font-size: 10px;
-    padding: 5px 5px;
+    padding: 10px 10px;
+  }
+  input,
+  textarea {
+    width: 50%;
+    padding: 10px 10px;
+    border: 3px solid #495f76;
+    border-radius: 30px;
+    background-color: #ecc5be;
   }
   p {
     font-size: 15px;
