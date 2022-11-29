@@ -171,7 +171,8 @@ textarea {
   border-radius: 40px;
 }
 p {
-  margin-top: 100px;
+  margin-top: 150px;
+  font-family: "Lobster", cursive;
 }
 
 /*media queries*/
