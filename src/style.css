@@ -242,10 +242,10 @@ p {
   .form-container {
     margin-left: 70px;
   }
-  /*.project-container {
+  .project-container {
     display: grid;
   }
-  img#project1,
+  /*img#project1,
   img#project2,
   img#project3,
   img#project4 {
