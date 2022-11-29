@@ -169,7 +169,7 @@ textarea {
   margin-bottom: 20px;
 }
 footer {
-  display: flex;
+  display: grid;
   justify-content: center;
   width: 60%;
   background-color: #ecc5be;
