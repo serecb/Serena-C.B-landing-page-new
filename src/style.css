@@ -245,7 +245,7 @@ p {
   .project-container {
     display: grid;
   }
-  /*img#project1,
+  img#project1,
   img#project2,
   img#project3,
   img#project4 {
@@ -254,7 +254,7 @@ p {
     height: 300px;
     border: 5px solid #495f76;
   }
-  p {
+  /* p {
     margin-bottom: 10px;
     width: 90%;
     font-size: 15px;
