@@ -169,6 +169,7 @@ textarea {
   margin-bottom: 20px;
 }
 footer {
+  width: 60%;
   background-color: #ecc5be;
   border: 3px solid #495f76;
   border-radius: 30px;
