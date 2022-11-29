@@ -201,9 +201,15 @@ p {
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+  .navbar-wrapper,
+  #about-heading {
+    border-right: none;
+    border-left: none;
+  }
   h3 {
     font-size: 20px;
   }
+
   a.navbar-brand {
     font-size: 15px;
     margin-left: 50px;
