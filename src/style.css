@@ -201,11 +201,6 @@ p {
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  .navbar-wrapper,
-  #about-heading {
-    border-right: none;
-    border-left: none;
-  }
   h3 {
     font-size: 20px;
   }
