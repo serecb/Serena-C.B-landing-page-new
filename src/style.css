@@ -239,6 +239,9 @@ p {
     font-size: 15px;
     padding: 10px 10px;
   }
+  input {
+    width: 80%;
+  }
   input::placeholder {
     font-size: 15px;
   }
