@@ -169,6 +169,9 @@ textarea {
   display: grid;
   justify-content: center;
 }
+img#project2 {
+  width: 50%;
+}
 
 /*media queries*/
 
